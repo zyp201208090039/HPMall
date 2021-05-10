@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gGWSd1ImPP+1e329sXMzSCjoKCtjh1LbRJBZbn9ULPc8JkLfZyP3H2mI/gTuDwUGRPtoNiKh56XkqBIZzpIsag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zhaoyape\\source\\repos\\HPMall\\MallPackage\\MallPackage.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.19041.8\\microsoft.windows.sdk.buildtools.10.0.19041.8.nupkg.sha512"
+  ],
+  "logs": []
+}

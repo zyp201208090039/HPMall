@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-FG3AJFHT</Machine>
+    <WindowsUser>bruce</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>48691d02-3e33-482f-a286-22e27ed77e46</PackageIdentityName>
+    <PackageIdentityPublisher>CN=zhaoyape</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\bruce\Desktop\qt\HPMall\MallPackage\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\bruce\Desktop\qt\HPMall\MallPackage\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>4A7BEAED31B5A2242F493B8059E2A32D98CC84762AAFF5862CC07D2494D36723</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>48691d02-3e33-482f-a286-22e27ed77e46_1.0.0.0_x64__37eh7wb2cxdja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>48691d02-3e33-482f-a286-22e27ed77e46_37eh7wb2cxdja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>48691d02-3e33-482f-a286-22e27ed77e46</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=zhaoyape</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-10T15:56:53.792</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2019-12-03T06:04:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\2.jpg">
+      <PackagePath>Images\2.jpg</PackagePath>
+      <Modified>2021-05-08T07:33:14.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\2.png">
+      <PackagePath>Images\2.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-07T05:04:10.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\4.png">
+      <PackagePath>Images\4.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-08T07:33:30.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-23T08:14:30.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-04-23T08:14:30.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2021-04-23T08:14:30.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2021-04-23T08:14:30.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2021-04-23T08:14:30.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-23T08:14:30.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-23T08:14:30.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\MallPackage\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-05-10T10:11:12.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\packages\ZXing.Net.0.16.6\lib\net461\zxing.dll">
+      <PackagePath>HPMall\zxing.dll</PackagePath>
+      <Modified>2020-10-08T10:50:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\packages\ZXing.Net.0.16.6\lib\net461\zxing.presentation.dll">
+      <PackagePath>HPMall\zxing.presentation.dll</PackagePath>
+      <Modified>2020-10-08T10:50:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\arrow.png">
+      <PackagePath>HPMall\Imgs\arrow.png</PackagePath>
+      <Modified>2021-05-10T13:45:00.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\bg.png">
+      <PackagePath>HPMall\Imgs\bg.png</PackagePath>
+      <Modified>2021-05-10T10:19:44.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\BlueBorder.png">
+      <PackagePath>HPMall\Imgs\BlueBorder.png</PackagePath>
+      <Modified>2021-05-08T02:30:35.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\GreenBorder.png">
+      <PackagePath>HPMall\Imgs\GreenBorder.png</PackagePath>
+      <Modified>2021-05-08T02:08:35.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\hpIcon.png">
+      <PackagePath>HPMall\Imgs\hpIcon.png</PackagePath>
+      <Modified>2021-05-10T09:51:09.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\lefttxt.png">
+      <PackagePath>HPMall\Imgs\lefttxt.png</PackagePath>
+      <Modified>2021-05-10T12:20:32.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\QRCodeBorder.png">
+      <PackagePath>HPMall\Imgs\QRCodeBorder.png</PackagePath>
+      <Modified>2021-05-07T07:57:23.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\QRFrame.png">
+      <PackagePath>HPMall\Imgs\QRFrame.png</PackagePath>
+      <Modified>2021-05-10T12:10:50.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\bin\x64\Debug\HPMall.exe">
+      <PackagePath>HPMall\HPMall.exe</PackagePath>
+      <Modified>2021-05-10T15:56:52.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bruce\Desktop\qt\HPMall\HPMall\bin\x64\Debug\HPMall.exe.config">
+      <PackagePath>HPMall\HPMall.exe.config</PackagePath>
+      <Modified>2021-05-07T06:58:07.755</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

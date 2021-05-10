@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="HPMall.HpControl.HpRadio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HPMall.HpControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="24" d:DesignWidth="84">
+    <Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <Image Height="18" Width="18" Source="/Imgs/hpRadio.png" />
+            <TextBlock FontSize="16" Foreground="White" FontFamily="Source Han Sans SC" Text="{Binding Txt}"></TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>

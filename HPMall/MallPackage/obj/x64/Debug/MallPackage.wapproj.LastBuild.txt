@@ -1,0 +1,25 @@
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\2.jpg
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\2.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\4.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\SplashScreen.scale-200.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\LockScreenLogo.scale-200.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Square150x150Logo.scale-200.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Square44x44Logo.scale-200.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\StoreLogo.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\Images\Wide310x150Logo.scale-200.png
+C:\Users\bruce\Desktop\qt\HPMall\MallPackage\bin\x64\Debug\resources.pri
+C:\Users\bruce\Desktop\qt\HPMall\packages\ZXing.Net.0.16.6\lib\net461\zxing.dll
+C:\Users\bruce\Desktop\qt\HPMall\packages\ZXing.Net.0.16.6\lib\net461\zxing.presentation.dll
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\arrow.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\bg.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\BlueBorder.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\GreenBorder.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\hpIcon.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\lefttxt.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\QRCodeBorder.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\Imgs\QRFrame.png
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\bin\x64\Debug\HPMall.exe
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\bin\x64\Debug\HPMall.exe.config
+C:\Users\bruce\Desktop\qt\HPMall\HPMall\bin\x64\Debug\HPMall.pdb

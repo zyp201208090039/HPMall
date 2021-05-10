@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="HPMall.HpControl.HPQRCode"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HPMall.HpControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="162" d:DesignWidth="144" Background="Transparent" BorderThickness="0">
+    <Grid Margin="0">
+        <Border  Margin="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Red" BorderThickness="0" CornerRadius="10">
+            <Border.Background >
+                <ImageBrush x:Name="bordFrame"  ImageSource="/Imgs/QRFrame.png"/>
+            </Border.Background>
+            <Image  x:Name="QRcode" Margin="5,10,5,27"/>
+        </Border>
+    </Grid>
+</UserControl>

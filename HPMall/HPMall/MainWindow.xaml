@@ -1,0 +1,84 @@
+﻿<Window x:Class="HPMall.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HPMall"
+        xmlns:localControl="clr-namespace:HPMall.HpControl"
+        mc:Ignorable="d"
+        Background="#C1F8FF"
+        Title="MainWindow" Height="500" Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" Margin="90,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="1" FontSize="40"  Foreground="#063866" TextWrapping="WrapWithOverflow"  VerticalAlignment="Bottom">惠普商城</TextBlock>
+            <TextBlock Grid.Row="2"  FontSize="40" Foreground="#063866" VerticalAlignment="Top">全新购物体验</TextBlock>
+            <TextBlock Grid.Row="3"  FontSize="24" Foreground="#26292C" FontWeight="Thin" VerticalAlignment="Center" FontFamily="HP Simplified Hans">扫描二维码登陆小程序或下载APP</TextBlock>
+            <StackPanel  Grid.Row="4" Orientation="Horizontal" >
+                <CheckBox  FontSize="16"  Margin="0,0">超值优惠</CheckBox>
+                <CheckBox  FontSize="16"  Margin="20,0,0,0">新品尝鲜</CheckBox>
+                <CheckBox  FontSize="16"  Margin="20,0,0,0">客服咨询</CheckBox>
+            </StackPanel>
+
+            <Button Background="Transparent" Grid.Row="5"  HorizontalAlignment="Left" VerticalAlignment="Top" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#FFAA47" CornerRadius="23" Height="46" Width="144">
+                            <TextBlock  Height="20" Foreground="#FFFFFF" FontSize="18"  FontFamily="PingFang SC" VerticalAlignment="Center" TextAlignment="Center"  >了解更多</TextBlock>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="auto" ></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="1" Grid.Column="1" >
+              
+
+                    <localControl:HPQRCode qrtype="MachinInfo" Height="142" Width="142"></localControl:HPQRCode>
+                    <TextBlock Width="112" Height="44" FontSize="16" TextWrapping="WrapWithOverflow" FontFamily="HP Simplified Hans">扫码进入小程序 可获取本机信息</TextBlock>
+              
+            </StackPanel>
+
+            <StackPanel  Grid.Row="1" Grid.Column="3">
+
+                <localControl:HPQRCode qrtype="DownApp" Height="142" Width="142"></localControl:HPQRCode>
+                <TextBlock Width="128" Height="44" FontSize="16" TextWrapping="WrapWithOverflow" FontFamily="HP Simplified Hans">扫码下载官方APP 更多优惠尽在掌握</TextBlock>
+
+            </StackPanel>
+               
+            
+        </Grid>
+        
+        
+        
+        
+       
+    </Grid>
+</Window>
